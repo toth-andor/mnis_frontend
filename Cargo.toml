@@ -1,0 +1,13 @@
+[package]
+name = "mnist_frontend"
+version = "0.1.0"
+authors = ["_todor_ <tothandor1@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tch = "0.2"
+piston_window = "0.111"
+find_folder = "0.3"
+gfx_device_gl = "0.16"
