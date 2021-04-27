@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 tch = "0.2"
-piston_window = "0.111"
+piston_window = "0.117.0"
 find_folder = "0.3"
 gfx_device_gl = "0.16"
