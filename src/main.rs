@@ -28,7 +28,7 @@ fn main() {
 
     let model = match CModule::load(assets.join("mnist_cnn.pth")) {
         Ok(x) => x,
-        Err(e) => panic!(e),
+        Err(e) => panic!("{}", e),
     };
 
     let digits: [&str; 10] = [&"0", &"1", &"2", &"3", &"4", &"5", &"6", &"7", &"8", &"9"];
